@@ -9,3 +9,5 @@ class Materia{
         this.published = published;
     }
 }
+
+module.exports = Materia;
