@@ -61,7 +61,7 @@ const getAllMaterias = async (req, res, next) =>{
                 };
                 materiaArray.push(materia);
             })
-            res.send({page, data: materiaArray});
+            res.send(materiaArray);
         }
     }catch(err){
         res.status(400).send(err.message);
